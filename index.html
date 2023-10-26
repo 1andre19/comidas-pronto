@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comidas Pronto</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul id="headerNav">
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">Conocenos</a></li>
+                <li><a href="#contact">Contacto</a></li>
+                <li><a href="#pedidos">Realiza tu Pedido</a></li>
+            </ul>
+        </nav>
+	<img src="./img/chef.png" id = "small-image"> 
+    <h1 id="big-text">Comidas Pronto</h1>
+      <div id="slogan">Si no es pronto, no es comida</div>
+    </header>
+
+
+
+
+
+    <section id="menu">
+        <h2>Menú del Dia</h2>
+        <ul>
+          <li>
+	     <img class = "zoom"src = "./img/spaguetti.jpg">
+          </li>
+          <li>
+		  <img class = "zoom" src= "./img/ensalada.jpg">
+            </li>
+            <li>
+		  <img class="zoom" src= "./img/asado.jpg">
+            </li>
+            <li>
+		  <img class="zoom" src= "./img/pescado.jpg">
+            </li>
+      </ul>
+      <button class="hover-button">Realiza tu pedido </button>
+    </section>
+
+
+    <section id="about">
+        <h2>Conócenos</h2>
+      <div id="about-content">
+        <p>
+
+        Somos Comidas Pronto desde 1987, 
+        tu mejor opción para satisfacer tus antojos culinarios con la rapidez que mereces.
+        Nuestro compromiso es superar tus expectativas en cada comida. Ya sea que desees un almuerzo rápido, una cena deliciosa o un bocado tentador para calmar tu hambre, 
+        Comidas Pronto está aquí para ti. ¡Ven y descubre por qué somos la elección preferida de los amantes de la buena comida con prisa!
+      </p>
+        <img src="https://lavidachila.files.wordpress.com/2015/08/super-pronto.jpg">
+        </div>
+    </section>
+
+    <section id="contact">
+ <div class="container">
+  <div style="text-align:center">
+    <h2>Contactanos</h2>
+  </div>
+  <div class="row">
+    <div class="column">
+      <img src="./img/casuela.jpg" style="width:45%">
+    </div>
+    <div class="column">
+      <form action="/action_page.php">
+        <label for="fname">Nombre</label>
+        <input type="text" id="fname" name="firstname" placeholder="Tu nombre..">
+        <label for="lname">Apellido</label>
+        <input type="text" id="lname" name="lastname" placeholder="Tu apellido..">
+        <label for="subject">Cuéntanos</label>
+        <textarea id="subject" name="subject" placeholder="Queremos saber de ti.." style="height:130px"></textarea>
+        <input type="submit" value="Enviar">
+      </form>
+    </div>
+  </div>
+</div> 
+     </section>
+
+
+    <footer>
+        <p>&copy; 2023 Comidas Pronto . All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
